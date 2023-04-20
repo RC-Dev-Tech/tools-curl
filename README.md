@@ -1,4 +1,4 @@
-# ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) Linux Curl Command
+# ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) Curl 基本指令介紹
 
 <br>
 
@@ -17,7 +17,7 @@
 <br>
 
 ## 簡介.
-Curl 是一種在命令列介面下使用的工具，主要用來與Web伺服器進行互動，<br>
+Curl 是一種在Linux環境命令列介面下使用的工具，主要用來與Web伺服器進行互動，<br>
 可以發送HTTP/HTTPS/FTP等協議的請求，並接收伺服器返回的資料。<br>
 Curl 的語法簡潔、易於使用，是測試API或網站功能的常用工具之一。
 
