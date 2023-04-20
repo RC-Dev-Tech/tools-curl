@@ -84,7 +84,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"key1":"value1", "key2":"v
 ```
 這個命令中，-H選項指定HTTP請求標頭，-d選項則指定POST請求的數據。<br>
 Content-Type指定了請求數據的格式為JSON，-d參數中的內容就是JSON數據，<br>
-http://example.com/api/endpoint則是POST請求的URL。<br>
+`http://example.com/api/endpoint`則是POST請求的URL。<br>
 
 ---
 <br>
