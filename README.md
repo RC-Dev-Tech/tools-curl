@@ -1,6 +1,6 @@
 # ![](https://drive.google.com/uc?id=10INx5_pkhMcYRdx_OO4rXNXxcsvPtBYq) Curl 基本指令介紹
 
-<br>
+---
 
 <!--ts-->
 ## 目錄
@@ -14,7 +14,6 @@
 <!--te-->
 
 ---
-<br>
 
 ## 簡介.
 Curl 是一種在Linux環境命令列介面下使用的工具，主要用來與Web伺服器進行互動，<br>
@@ -29,7 +28,6 @@ curl [options] [URL]
 - [URL]是要請求的網址。<br>
 
 ---
-<br>
 
 ## 上傳檔案
 ```css
@@ -39,7 +37,6 @@ curl -F 'file=@/path/to/file' http://example.com
 可以使用 -F 或 --form 參數來指定表單數據，並使用 @ 標記要上傳的檔案。<br>
 
 ---
-<br>
 
 ## 下載檔案
 ```css
@@ -49,7 +46,6 @@ curl -O http://example.com/file.zip
 如果要指定下載檔案的名稱，可以使用 -o 或 --output 參數。<br>
 
 ---
-<br>
 
 ## 設置cookie
 ```css
@@ -59,7 +55,6 @@ curl --cookie 'name=value' http://example.com
 可以使用 -c 或 --cookie-jar 參數來設置 cookie 的儲存位置。<br>
 
 ---
-<br>
 
 ## 發送GET請求
 ```css
@@ -69,7 +64,6 @@ curl http://example.com
 可以使用 -v 或 --verbose 參數來顯示請求的詳細信息。<br>
 
 ---
-<br>
 
 ## 發送POST請求
 ```css
@@ -87,11 +81,12 @@ Content-Type指定了請求數據的格式為JSON，-d參數中的內容就是JS
 `http://example.com/api/endpoint`則是POST請求的URL。<br>
 
 ---
-<br>
 
 ## 參考資料
 * [Linux Curl Command 指令與基本操作入門教學](https://blog.techbridge.cc/2019/02/01/linux-curl-command-tutorial/) <br>
+
 ---
+
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
